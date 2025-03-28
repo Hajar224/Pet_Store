@@ -25,4 +25,4 @@ jobs:
         run: npm install -g newman
 
       - name: Run Postman Tests
-        run: newman run "Swaggar Petstore.postman_collection.json" -e "PetStore Api Testing.postman_environment.json"
+        run: newman run Api Testing Project/"Swaggar Petstore.postman_collection" -e Api Testing Project/"PetStore Api Testing.postman_environment.json"
